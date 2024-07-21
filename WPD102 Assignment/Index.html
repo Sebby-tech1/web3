@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <link rel="stylesheet" href="./styles.css">
+    <title>Web Calculator App</title>
+</head>
+
+<body>
+    <h1>Web Calculator App</h1>   
+    <div class="container"> 
+        <form action="">
+            <p>Thee_Matrix</p>
+<input type="text" id="screen">
+
+<br>
+
+<input class="button calcValue" type="button" value="7" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="8" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="9" onclick="runCalculator(value)">
+<input class="button operator" type="button" value="/" onclick="runCalculator(value)">
+
+<br>
+<input class="button calcValue" type="button" value="4" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="5" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="6" onclick="runCalculator(value)">
+<input class="button operator" type="button" value="*" onclick="runCalculator(value)">
+
+<br>
+<input class="button calcValue" type="button" value="1" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="2" onclick="runCalculator(value)">
+<input class="button calcValue" type="button" value="3" onclick="runCalculator(value)">
+<input class="button operator" type="button" value="+" onclick="runCalculator(value)">
+
+<br>
+<input class="button clear" type="button" value="AC" onclick="clearCalculator()">
+<input class="button calcValue" type="button" value="0" onclick="runCalculator(value)">
+<input class="button delete" type="button" value="DEL" onclick="deleteCalculator(value)">
+<input class="button operator" type="button" value="-" onclick="runCalculator(value)">
+<br>
+
+<br>
+<input class="button result" type="button" value="enter" onclick="findResult()">
+<input class="button dot" type="button" value="." onclick="decimal()">
+<br>
+
+        </form>
+        
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
